@@ -35,14 +35,14 @@ The platform is perfect for businesses managing movie ticket bookings who need a
 
 ### Backend
 	
- •	Snowflake:
-	
- •	Database, Streams, Tasks, and Dynamic Tables for real-time data processing.
+•	Snowflake:
+
+  • Database, Streams, Tasks, and Dynamic Tables for real-time data processing.
 
 ### Frontend
 	
  •	Streamlit:
 	
- •	For creating an interactive, user-friendly dashboard.
+   • For creating an interactive, user-friendly dashboard.
 
  
