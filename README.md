@@ -8,14 +8,41 @@ The platform is perfect for businesses managing movie ticket bookings who need a
 
 ## Features
 1) CDC Processing with Snowflake:
-	•	Uses Snowflake Streams and Tasks to process changes in booking data dynamically.
-	•	Captures event types like INSERT, UPDATE, and DELETE for granular insights.
+	
+ 	•	Uses Snowflake Streams and Tasks to process changes in booking data dynamically.
+	
+ 	•	Captures event types like INSERT, UPDATE, and DELETE for granular insights.
+ 
 2) Dynamic Tables:
-	•	Real-time aggregation and filtering of booking data.
-	•	Supports analytics like total revenue, tickets sold, and cancellations.
+	
+ 	•	Real-time aggregation and filtering of booking data.
+	
+	 •	Supports analytics like total revenue, tickets sold, and cancellations.
+ 
 3) Interactive Streamlit Dashboard:
-	•	Visualizes insights with metrics, charts, and tables.
-	•	Filters bookings by date range and status.
-	•	Provides detailed analysis on revenue, ticket count, and booking trends.
+	
+ 	•	Visualizes insights with metrics, charts, and tables.
+	
+ 	•	Filters bookings by date range and status.
+	
+ 	•	Provides detailed analysis on revenue, ticket count, and booking trends.
+ 
 4) Scheduled Refresh:
-	•	Automated data refreshes ensure the dashboard reflects the latest booking data.
+	
+ 	•	Automated data refreshes ensure the dashboard reflects the latest booking data.
+
+## Technology Stack
+
+### Backend
+	
+ •	Snowflake:
+	
+ •	Database, Streams, Tasks, and Dynamic Tables for real-time data processing.
+
+### Frontend
+	
+ •	Streamlit:
+	
+ •	For creating an interactive, user-friendly dashboard.
+
+ 
