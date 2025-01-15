@@ -81,3 +81,33 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
  3.	Click the Run button in the worksheet to ensure no errors occur.
 	
  4.	Click the Streamlit button (usually located in the top-right corner of the worksheet) to launch the interactive dashboard.
+
+## Using the Dashboard
+
+### Filters
+	
+ • Date Range: Filter booking data by selecting a specific date range.
+	
+ • Booking Status: Filter bookings by status (BOOKED, CANCELLED, COMPLETED, or all).
+
+### Insights
+
+#### Metrics:
+
+   • Total Bookings
+ 
+   • Total Tickets Sold
+ 
+   • Total Revenue
+ 
+#### Charts:
+  
+   • Revenue by Booking Status
+ 
+   • Tickets Sold by Status
+ 
+   • Bookings and Revenue by Movie
+ 
+#### Tables:
+
+   • Detailed revenue and booking data by movie or status.
