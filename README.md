@@ -2,9 +2,7 @@
 
 ## Overview
 
-The Dynamic Movie Booking Insights Platform is a comprehensive project designed to provide real-time insights into movie ticket bookings. This solution utilizes Snowflake’s Dynamic Tables, Streams, and Tasks to process CDC (Change Data Capture) events efficiently and display interactive visualizations via a Streamlit dashboard.
-
-The platform is perfect for businesses managing movie ticket bookings who need actionable insights, such as tracking revenue, tickets sold, and booking trends.
+The Dynamic Movie Booking Insights Platform is a robust solution designed to process real-time movie ticket booking data and provide actionable insights. By leveraging Snowflake’s Dynamic Tables, Streams, Tasks, and integrated Streamlit, the platform delivers a seamless analytics experience. The interactive dashboard allows businesses to track revenue, ticket sales, and booking trends with ease.
 
 ## Features
 1) CDC Processing with Snowflake:
@@ -68,3 +66,17 @@ The platform is perfect for businesses managing movie ticket bookings who need a
 2.  Run the SQL script snowflake_dynamic_tables.sql in Snowflake:
    
 	• This script sets up the database, tables, streams, and tasks required for the project.
+
+##### Step 3: Install Dependencies
+
+Install the required Python libraries:
+
+``` pip install streamlit snowflake-snowpark-python pandas ```
+
+##### Step 4: Launch the Streamlit Dashboard
+
+1. Start the Streamlit app:
+
+``` streamlit run streamlit_app.py ```
+
+2. 
