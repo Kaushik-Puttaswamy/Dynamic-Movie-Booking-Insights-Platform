@@ -112,7 +112,7 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
 
    • Detailed revenue and booking data by movie or status.
    
-#### Dashboard Preview
+## Dashboard Preview
 
 Below is a preview of the interactive dashboard hosted in Snowflake Streamlit:
 
