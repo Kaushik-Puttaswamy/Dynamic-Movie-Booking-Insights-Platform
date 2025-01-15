@@ -1,4 +1,4 @@
-# Dynamic Movie Booking Insights Platform
+# Dynamic Movie Booking Insights Platform Using Snowflake
 
 ## Overview
 
