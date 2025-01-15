@@ -26,3 +26,43 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
 
     •	Visualizes data through tables, metrics, and charts.
 
+## Technology Stack
+
+### Snowflake
+
+• Streams: For capturing changes in booking data.
+
+
+• Tasks: To automate processing and aggregation of data.
+
+
+• Dynamic Tables: To enable real-time analytics.
+
+
+• Python Worksheets: For developing and running Python-based logic.
+
+
+### Streamlit (Built into Snowflake)
+
+	
+• For creating the interactive and responsive dashboard.
+
+## Setup Guide
+
+### Step 1: Set Up Database in Snowflake
+
+1.	Log in to your Snowflake account.
+
+2.	Create a new worksheet.
+
+3.	Copy the content of the snowflake_dynamic_tables.sql file into the worksheet and execute it.
+	
+     •	This script creates:
+	
+     •	The database movies and required tables.
+	
+     •	Streams and tasks for processing CDC events.
+	
+     •	Dynamic tables for analytics.
+
+4.	Activate the tasks:
