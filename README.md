@@ -66,3 +66,18 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
      •	Dynamic tables for analytics.
 
 4.	Activate the tasks:
+
+``` ALTER TASK ingest_cdc_events_task RESUME; ```
+
+
+``` ALTER TASK refresh_movie_booking_insights RESUME; ```
+
+### Step 2: Launch the Streamlit Dashboard
+	
+ 1.	Open a Python Worksheet in Snowflake.
+	
+ 2.	Copy the contents of the streamlit_app.py file into the worksheet.
+	
+ 3.	Click the Run button in the worksheet to ensure no errors occur.
+	
+ 4.	Click the Streamlit button (usually located in the top-right corner of the worksheet) to launch the interactive dashboard.
