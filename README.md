@@ -35,14 +35,36 @@ The platform is perfect for businesses managing movie ticket bookings who need a
 
 ### Backend
 	
-•	Snowflake:
+• Snowflake:
 
    Database, Streams, Tasks, and Dynamic Tables for real-time data processing.
 
 ### Frontend
 	
- •	Streamlit:
-	
+ • Streamlit:
+   
    For creating an interactive, user-friendly dashboard.
 
- 
+### Installation Guide
+
+#### Prerequisites
+
+1. Snowflake account with appropriate permissions.
+   
+2. Python 3.8+ installed locally or on a server.
+   
+3. pip installed for managing Python packages.
+
+##### Step 1: Clone the Repository
+
+```  git clone https://github.com/your-repo/dynamic-movie-booking-platform.git ``` 
+
+```  cd dynamic-movie-booking-platform ```
+
+##### Step 2: Configure Snowflake Environment
+
+1. Create a Snowflake database and warehouse.
+   
+2.  Run the SQL script snowflake_dynamic_tables.sql in Snowflake:
+   
+	• This script sets up the database, tables, streams, and tasks required for the project.
