@@ -111,3 +111,12 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
 #### Tables:
 
    • Detailed revenue and booking data by movie or status.
+
+## Folder Structure
+
+dynamic-movie-booking-platform/
+│
+├── snowflake_dynamic_tables.sql  # Snowflake SQL script for database setup
+├── streamlit_app.py              # Streamlit app for the interactive dashboard
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies 
