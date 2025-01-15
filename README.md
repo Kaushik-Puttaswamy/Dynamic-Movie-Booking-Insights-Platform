@@ -8,21 +8,21 @@ The Dynamic Movie Booking Insights Platform is a robust solution designed to pro
 
 1)	Real-Time Data Processing:
 
-•	Tracks changes in booking data using Snowflake Streams and Tasks.
+    •	Tracks changes in booking data using Snowflake Streams and Tasks.
 
-•	Handles CDC (Change Data Capture) events like INSERT, UPDATE, and DELETE.
+    •	Handles CDC (Change Data Capture) events like INSERT, UPDATE, and DELETE.
 
 2)	Dynamic Insights:
 
-•	Aggregates data in real-time using Snowflake’s Dynamic Tables.
+    •	Aggregates data in real-time using Snowflake’s Dynamic Tables.
 
-•	Provides metrics such as revenue, tickets sold, cancellations, and more.
+    •	Provides metrics such as revenue, tickets sold, cancellations, and more.
 
 3) Integrated Streamlit Dashboard:
 
-•	Hosted directly in Snowflake for a zero-setup experience.
+    •	Hosted directly in Snowflake for a zero-setup experience.
  
-•	Offers filters for date range and booking status.
+    •	Offers filters for date range and booking status.
 
-•	Visualizes data through tables, metrics, and charts.
+    •	Visualizes data through tables, metrics, and charts.
 
