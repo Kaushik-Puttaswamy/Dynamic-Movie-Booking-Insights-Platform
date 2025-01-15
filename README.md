@@ -126,3 +126,37 @@ dynamic-movie-booking-platform/
 
 └── requirements.txt              # Python dependencies 
 
+How It Works
+	1.	Data Ingestion:
+	•	Booking data is inserted, updated, or deleted in the raw_movie_bookings table.
+	•	The movie_bookings_stream captures CDC events (insert, update, delete).
+	2.	Data Processing:
+	•	The task ingest_cdc_events_task processes CDC events and stores them in movie_booking_cdc_events.
+	•	Dynamic tables (movie_bookings_filtered and movie_booking_insights) aggregate and filter the data for analysis.
+	3.	Visualization:
+	•	The Streamlit app fetches data directly from Snowflake tables and visualizes it dynamically.
+
+ Key SQL and Python Components
+	1.	Snowflake SQL Components:
+	•	Streams: movie_bookings_stream to track CDC changes.
+	•	Tasks: ingest_cdc_events_task and refresh_movie_booking_insights for data processing and refreshing.
+	•	Dynamic Tables:
+	•	movie_bookings_filtered: Filters relevant booking data.
+	•	movie_booking_insights: Aggregates key metrics and insights.
+	2.	Streamlit Dashboard:
+	•	Filters data based on user input (date range and status).
+	•	Displays metrics, charts, and tables for easy analysis.
+
+
+ Future Enhancements
+	•	Predictive Analytics:
+	•	Use machine learning models for demand forecasting and revenue prediction.
+	•	User Management:
+	•	Add authentication and role-based access control.
+	•	Custom Notifications:
+	•	Notify users about booking trends or anomalies.
+	•	Data Export:
+	•	Provide an option to export data as CSV or Excel.
+
+ 🚀 Experience seamless movie booking analytics directly within Snowflake!
+
